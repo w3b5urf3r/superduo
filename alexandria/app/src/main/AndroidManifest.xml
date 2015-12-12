@@ -30,7 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
+        <activity
+            android:label="@string/title_barcade_scanner"
+            android:name=".BarCodeReaderActivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
 
 
         <provider

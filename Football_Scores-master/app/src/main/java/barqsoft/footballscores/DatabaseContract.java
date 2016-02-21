@@ -12,7 +12,7 @@ public class DatabaseContract
     public static final String SCORES_TABLE = "scores_table";
     public static final class scores_table implements BaseColumns
     {
-        //Table data
+        //Table data string no need to be in strings.xml
         public static final String LEAGUE_COL = "league";
         public static final String DATE_COL = "date";
         public static final String TIME_COL = "time";

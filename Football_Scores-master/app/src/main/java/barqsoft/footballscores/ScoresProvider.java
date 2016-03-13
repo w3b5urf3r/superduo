@@ -65,6 +65,7 @@ public class ScoresProvider extends ContentProvider
     public boolean onCreate()
     {
         mOpenHelper = new ScoresDBHelper(getContext());
+
         return false;
     }
 
